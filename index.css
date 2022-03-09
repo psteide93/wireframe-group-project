@@ -17,7 +17,7 @@ header ul{
 
 }
 
-li + li {
+header li + li {
     margin-left: 24px;
 }
 
@@ -30,11 +30,14 @@ button{
     padding: 16px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
 }
 
 button a {
     text-decoration: none;
     color: hsl(214, 100%, 94%);
+    
 }
 
 nav a{
