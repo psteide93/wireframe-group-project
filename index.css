@@ -7,11 +7,12 @@
 header{
     display: flex;
     justify-content: space-between;
-    
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 header img {
-    padding-left: 20px;
+    width: 7em;
 }
 
 header ul{
@@ -32,7 +33,6 @@ button{
     border-radius: 16px;
     height: 16px;
     padding: 16px;
- 
     font-size: 14px;
     margin-top: 8px;
     text-align: center;
@@ -51,15 +51,19 @@ nav a{
     font-size: 14px;
 }
 
+nav a:hover{
+    color: blue;
+}
+
 main{
-    padding: 2em 2em 2em 2em;
+    padding: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+    gap: 5em;
 }
 
 aside img{
-width: 150px;
+width: 100%;
 }
 
 h1, h2, h3 {
@@ -89,8 +93,17 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    width: 100%;
     gap: 1em;
 }
+
+.highlight{
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 61%);
+    padding: 1.5em;
+}
+
 
 .socials{
    display: flex;
