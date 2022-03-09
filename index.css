@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -28,7 +32,7 @@ button{
     border-radius: 16px;
     height: 16px;
     padding: 16px;
-    font-family: 'Montserrat', sans-serif;
+ 
     font-size: 14px;
     margin-top: 8px;
     text-align: center;
@@ -41,7 +45,7 @@ button a {
 }
 
 nav a{
-    font-family: 'Montserrat', sans-serif;
+
     text-decoration: none;
     color: hsl(234, 100%, 18%);
     font-size: 14px;
@@ -64,3 +68,17 @@ width: 150px;
     grid-template-rows: repeat(2, 1fr);
     gap: 1em;
 }
+
+.socials{
+   display: flex;
+    list-style-type: none;
+   justify-content: flex-end;
+}
+
+.socials img{
+    width: 35px;
+}
+.socials li + li{
+    margin-left: 8px;
+}
+
